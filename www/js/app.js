@@ -21,7 +21,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function( $stateProvider, $urlRouterProvider) {
+
+  openFB.init({appId: '356366664568078'});
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
